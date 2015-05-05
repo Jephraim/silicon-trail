@@ -234,19 +234,18 @@ body {
   font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 18px;
   line-height: 20px;
-  color: #bbbbbb;
-  background-color: #000084;
+  color: rgb(49, 255, 50);
+  background-color: #000000;
 }
 
 a {
-  color: #fefe54;
-  text-decoration: none;
+  color: rgb(49, 255, 50);
 }
 
 a:hover,
 a:focus {
-  color: #fefe54;
-  background: #aa5500;
+  color: #000000;
+  background: rgb(49, 255, 50);
 }
 
 .img-rounded {
@@ -661,8 +660,8 @@ p {
   padding: 9px 14px 9px 14px;
   margin: 9px 4px 9px 4px;
   font-size: 18px;
-  color: #ffffff;
-  border: 2px solid #bbbbbb;
+  color: rgb(49, 255, 50);
+  border: 2px solid rgb(49, 255, 50);
 }
 
 small {
@@ -671,12 +670,12 @@ small {
 
 strong {
   font-weight: normal;
-  color: #ffffff;
+  color: rgb(49, 255, 50);
 }
 
 em {
   font-weight: normal;
-  color: #ffffff;
+  color: rgb(49, 255, 50);
 }
 
 cite {
@@ -709,25 +708,25 @@ dfn:after {
 
 .muted {
   display: none;
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 .text-warning {
-  color: #ffffff;
+  color: rgb(49, 255, 50);
 }
 
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #ffffff;
+  color: rgb(49, 255, 50);
 }
 
 .text-error {
-  color: #ffffff;
+  color: rgb(49, 255, 50);
 }
 
 a.text-error:hover,
 a.text-error:focus {
-  color: #ffffff;
+  color: rgb(49, 255, 50);
 }
 
 .text-info {
@@ -770,7 +769,7 @@ h6 {
   font-family: inherit;
   font-weight: inherit;
   line-height: 20px;
-  color: #ffffff;
+  color: rgb(49, 255, 50);
   text-rendering: optimizelegibility;
 }
 
@@ -782,7 +781,7 @@ h5 small,
 h6 small {
   font-weight: normal;
   line-height: 1;
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 h1,
@@ -816,7 +815,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #fe54fe;
+  color: rgb(49, 255, 50);
 }
 
 h5 {
@@ -846,7 +845,7 @@ h4 small {
 .page-header {
   padding: 20px 20px;
   margin: 20px 0 20px;
-  background: #00aaaa;
+  background: rgb(49, 255, 50);
 }
 
 .page-header h1 {
@@ -943,8 +942,8 @@ dd {
 hr {
   margin: 6px 0 7px;
   border: 0;
-  border-top: 0px solid #bbbbbb;
-  border-bottom: 2px solid #ffffff;
+  border-top: 0px solid rgb(49, 255, 50);
+  border-bottom: 2px solid rgb(49, 255, 50);
 }
 
 abbr[title],
@@ -961,7 +960,7 @@ abbr.initialism {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
-  border-left: 5px solid #bbbbbb;
+  border-left: 5px solid rgb(49, 255, 50);
 }
 
 blockquote p {
@@ -973,7 +972,7 @@ blockquote p {
 blockquote small {
   display: block;
   line-height: 20px;
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 blockquote small:before {
@@ -984,7 +983,7 @@ blockquote.pull-right {
   float: right;
   padding-right: 1em;
   padding-left: 0;
-  border-right: 5px solid #bbbbbb;
+  border-right: 5px solid rgb(49, 255, 50);
   border-left: 0;
 }
 
@@ -1093,7 +1092,7 @@ legend {
 
 legend small {
   font-size: 20px;
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 legend:before {
@@ -1151,7 +1150,7 @@ input[type="color"],
   line-height: 20px;
   color: #000000;
   vertical-align: middle;
-  background: #bbbbbb;
+  background: rgb(49, 255, 50);
   border: 2px solid #000000;
 }
 
@@ -1189,7 +1188,7 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-  background-color: #bbbbbb;
+  background-color: rgb(49, 255, 50);
   border: 0;
   border-bottom: 2px solid #000000;
 }
@@ -1264,7 +1263,7 @@ input[type="checkbox"]:focus {
 
 .uneditable-input,
 .uneditable-textarea {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   cursor: not-allowed;
   background-color: #fcfcfc;
   border-color: #cccccc;
@@ -1282,17 +1281,17 @@ input[type="checkbox"]:focus {
 
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 .radio,
@@ -1488,7 +1487,7 @@ input[readonly],
 select[readonly],
 textarea[readonly] {
   cursor: not-allowed;
-  background-color: #bbbbbb;
+  background-color: rgb(49, 255, 50);
 }
 
 input[type="radio"][disabled],
@@ -1754,7 +1753,7 @@ select:focus:invalid:focus {
   line-height: 20px;
   text-align: center;
   text-shadow: 0;
-  background-color: #bbbbbb;
+  background-color: rgb(49, 255, 50);
   border: 0;
 }
 
@@ -2917,14 +2916,14 @@ table th[class*="span"],
   padding: 9px 4px 9px 4px;
   margin: -15.5px 4px 8px 4px;
   list-style: none;
-  background-color: #bbbbbb;
+  background-color: rgb(49, 255, 50);
   border: 1px solid #000000;
   -webkit-border-radius: 0;
      -moz-border-radius: 0;
           border-radius: 0;
-  -webkit-box-shadow: 0px 0px 0 5px #bbbbbb;
-     -moz-box-shadow: 0px 0px 0 5px #bbbbbb;
-          box-shadow: 0px 0px 0 5px #bbbbbb;
+  -webkit-box-shadow: 0px 0px 0 5px rgb(49, 255, 50);
+     -moz-box-shadow: 0px 0px 0 5px rgb(49, 255, 50);
+          box-shadow: 0px 0px 0 5px rgb(49, 255, 50);
   -webkit-background-clip: padding-box;
      -moz-background-clip: padding;
           background-clip: padding-box;
@@ -2960,14 +2959,14 @@ table th[class*="span"],
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
 .dropdown-submenu:focus > a {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   text-decoration: none;
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   text-decoration: none;
   background-color: #fefe4a;
   background-image: -moz-linear-gradient(top, #fefe54, #fefe3b);
@@ -2983,7 +2982,7 @@ table th[class*="span"],
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 .dropdown-menu > .disabled > a:hover,
@@ -3065,7 +3064,7 @@ table th[class*="span"],
 }
 
 .dropdown-submenu:hover > a:after {
-  border-left-color: #bbbbbb;
+  border-left-color: rgb(49, 255, 50);
 }
 
 .dropdown-submenu.pull-left {
@@ -3174,7 +3173,7 @@ button.close {
 
 .btn:hover:before,
 .btn:hover:after {
-  color: #ffffff;
+  color: rgb(49, 255, 50);
 }
 
 .btn:before {
@@ -3189,6 +3188,7 @@ button.close {
   display: inline-block;
   *display: inline;
   padding: 0 10px;
+  text-decoration: none;
   margin-bottom: 20px;
   *margin-left: .3em;
   font-size: 18px;
@@ -3197,7 +3197,7 @@ button.close {
   text-align: center;
   vertical-align: middle;
   cursor: default;
-  background: #bbbbbb;
+  background: rgb(49, 255, 50);
   border: 0;
   border-width: 0;
   -webkit-border-radius: 0;
@@ -3215,9 +3215,9 @@ button.close {
 
 .btn:hover,
 .btn:focus {
-  color: #ffffff;
+  color: rgb(49, 255, 50);
   text-decoration: none;
-  background: #555555;
+  background: #000000;
   outline: 0;
 }
 
@@ -3307,7 +3307,7 @@ input[type="button"].btn-block {
 
 .btn-primary {
   color: #000000;
-  background: #bbbbbb;
+  background: rgb(49, 255, 50);
 }
 
 .btn-warning {
@@ -3323,7 +3323,7 @@ input[type="button"].btn-block {
 .btn-warning.active,
 .btn-warning.disabled,
 .btn-warning[disabled] {
-  color: #ffffff;
+  color: rgb(49, 255, 50);
 }
 
 .btn-danger {
@@ -3375,7 +3375,7 @@ input[type="button"].btn-block {
 }
 
 .btn-inverse {
-  *background-color: #555555;
+  *background-color: #000000;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -3772,7 +3772,7 @@ input[type="submit"].btn.btn-mini {
   margin-bottom: 20px;
   margin-left: 0;
   list-style: none;
-  background: #bbbbbb;
+  background: rgb(49, 255, 50);
 }
 
 .nav > li > a {
@@ -3781,7 +3781,7 @@ input[type="submit"].btn.btn-mini {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   text-decoration: none;
   background-color: #000000;
 }
@@ -3884,7 +3884,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-tabs {
-  border-bottom: 0.5em solid #bbbbbb;
+  border-bottom: 0.5em solid rgb(49, 255, 50);
 }
 
 .nav-tabs > li {
@@ -3906,7 +3906,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   cursor: default;
   background-color: #000084;
   border: 0;
@@ -3927,7 +3927,7 @@ input[type="submit"].btn.btn-mini {
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover,
 .nav-pills > .active > a:focus {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   background-color: #fefe54;
 }
 
@@ -4014,8 +4014,8 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-tabs .active .dropdown-toggle .caret {
-  border-top-color: #bbbbbb;
-  border-bottom-color: #bbbbbb;
+  border-top-color: rgb(49, 255, 50);
+  border-bottom-color: rgb(49, 255, 50);
 }
 
 .nav > .dropdown.active > a:hover,
@@ -4028,8 +4028,8 @@ input[type="submit"].btn.btn-mini {
 .nav > li.dropdown.open.active > a:hover,
 .nav > li.dropdown.open.active > a:focus {
   color: #ffffff;
-  background-color: #bbbbbb;
-  border-color: #bbbbbb;
+  background-color: rgb(49, 255, 50);
+  border-color: rgb(49, 255, 50);
 }
 
 .nav li.dropdown.open .caret,
@@ -4044,7 +4044,7 @@ input[type="submit"].btn.btn-mini {
 
 .tabs-stacked .open > a:hover,
 .tabs-stacked .open > a:focus {
-  border-color: #bbbbbb;
+  border-color: rgb(49, 255, 50);
 }
 
 .tabbable {
@@ -4136,7 +4136,7 @@ input[type="submit"].btn.btn-mini {
 
 .tabs-left > .nav-tabs > li > a:hover,
 .tabs-left > .nav-tabs > li > a:focus {
-  border-color: #bbbbbb #dddddd #bbbbbb #bbbbbb;
+  border-color: rgb(49, 255, 50) #dddddd rgb(49, 255, 50) rgb(49, 255, 50);
 }
 
 .tabs-left > .nav-tabs .active > a,
@@ -4161,7 +4161,7 @@ input[type="submit"].btn.btn-mini {
 
 .tabs-right > .nav-tabs > li > a:hover,
 .tabs-right > .nav-tabs > li > a:focus {
-  border-color: #bbbbbb #bbbbbb #bbbbbb #dddddd;
+  border-color: rgb(49, 255, 50) rgb(49, 255, 50) rgb(49, 255, 50) #dddddd;
 }
 
 .tabs-right > .nav-tabs .active > a,
@@ -4172,7 +4172,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav > .disabled > a {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 .nav > .disabled > a:hover,
@@ -4228,7 +4228,7 @@ input[type="submit"].btn.btn-mini {
   padding: 0 10px;
   margin-left: -10px;
   font-size: 18px;
-  color: #000084;
+  color: rgb(49, 255, 50);
   text-shadow: 0;
 }
 
@@ -4256,7 +4256,7 @@ input[type="submit"].btn.btn-mini {
   height: 20px;
   margin: 0 12.4px;
   border-right: 1px solid #ffffff;
-  border-left: 1px solid #bbbbbb;
+  border-left: 1px solid rgb(49, 255, 50);
 }
 
 .navbar .btn,
@@ -4446,9 +4446,9 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   text-decoration: none;
-  background-color: #bbbbbb;
+  background-color: rgb(49, 255, 50);
 }
 
 .navbar .btn-navbar {
@@ -4531,8 +4531,8 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-  color: #bbbbbb;
-  background-color: #bbbbbb;
+  color: rgb(49, 255, 50);
+  background-color: rgb(49, 255, 50);
 }
 
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
@@ -4543,8 +4543,8 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
-  border-top-color: #bbbbbb;
-  border-bottom-color: #bbbbbb;
+  border-top-color: rgb(49, 255, 50);
+  border-bottom-color: rgb(49, 255, 50);
 }
 
 .navbar .pull-right > li > .dropdown-menu,
@@ -4577,21 +4577,21 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inverse .navbar-inner {
-  background: #bbbbbb;
+  background: rgb(49, 255, 50);
 }
 
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
   color: #000000;
   text-shadow: 0;
-  background: #bbbbbb;
+  background: rgb(49, 255, 50);
 }
 
 .navbar-inverse .brand:hover,
 .navbar-inverse .nav > li > a:hover,
 .navbar-inverse .brand:focus,
 .navbar-inverse .nav > li > a:focus {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   background: #000000;
 }
 
@@ -4605,14 +4605,14 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   background: #000000;
 }
 
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   text-decoration: none;
   background: #000000;
 }
@@ -4727,11 +4727,11 @@ input[type="submit"].btn.btn-mini {
 
 .breadcrumb > li > .divider {
   padding: 0 10px;
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 .breadcrumb > .active {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 .pagination {
@@ -4776,7 +4776,7 @@ input[type="submit"].btn.btn-mini {
 
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   cursor: default;
 }
 
@@ -4784,7 +4784,7 @@ input[type="submit"].btn.btn-mini {
 .pagination ul > .disabled > a,
 .pagination ul > .disabled > a:hover,
 .pagination ul > .disabled > a:focus {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   cursor: default;
   background-color: transparent;
 }
@@ -4928,7 +4928,7 @@ input[type="submit"].btn.btn-mini {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
   cursor: default;
   background-color: #555555;
 }
@@ -5318,7 +5318,7 @@ a.thumbnail:focus {
 
 .thumbnail .caption {
   padding: 9px;
-  color: #bbbbbb;
+  color: rgb(49, 255, 50);
 }
 
 .media,
